@@ -1,1 +1,1 @@
-print('Ola Mundo, again!')
+print(input('Como se safar da maldição?'))
