@@ -1,15 +1,16 @@
 a = str(input('Digite algo: '))
-print(f''' 
-    É Alpha númerico? {a.isalnum()},
-    É alpha? {a.isalpha()},
-    É Minuscula? {a.islower()},
-    É maiuscula? {a.isupper()},
-    Está capitalizada? {a.istitle()},
-    É Decimal? {a.isdecimal()},
-    É numérica? {a.isnumeric()},
-    É espaço? {a.isspace()},
-    Tipo: {type(a)}
-      ''')
+print(f'\n'
+      f'Tipo: {type(a)} \n'
+      f'    É Alpha númerico? {a.isalnum()},\n'
+      f'    É Alpha? {a.isalpha()},\n'
+      f'    É Minuscula? {a.islower()},\n'
+      f'    É Maiuscula? {a.isupper()},\n'
+      f'    Está Capitalizada? {a.istitle()},\n'
+      f'    É Decimal? {a.isdecimal()},\n'
+      f'    É Numérica? {a.isnumeric()},\n'
+      f'    É Espaço? {a.isspace()},\n'
+      f'    \n'
+      f'      ')
 
 
 
