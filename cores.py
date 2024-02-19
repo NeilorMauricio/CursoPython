@@ -1,0 +1,1 @@
+print('\033[4;30;45mTestando Cores\033[m')
